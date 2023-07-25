@@ -1,7 +1,6 @@
 Mongo
 docker run -d -p 27017:27017 --name shopping-mongo mongo
 
-
 docker exec -it shopping-mongo /bin/bash
 
 mongosh
@@ -56,17 +55,12 @@ docker rmi $(docker images -q)
 docker system prune 
 
 
-
-
-
-
 REDIS
 docker run -d -p 6379:6379 --name aspnetrun-redis redis
 docker logs -f aspnetrun-redis
 
 docker exec -it aspnetrun-redis /bin/bash
 redis-cli
-
 
 
 ACCOUNT PORTAINER
