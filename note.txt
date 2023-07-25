@@ -48,6 +48,9 @@ docker ps -aq
 
 docker rm $(docker ps -aq)
 
+Khi thay đổi container
+docker-compose -f .\docker-compose.yml -f .\docker-compose.override.yml up --build
+
 ----XÓA TẤT CẢ IMAGES VÀ CONTAINERS (clear máy)
 
 docker rmi $(docker images -q)
