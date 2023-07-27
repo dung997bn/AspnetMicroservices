@@ -68,3 +68,6 @@ redis-cli
 
 ACCOUNT PORTAINER
 admin/dung12345678
+
+NUGET
+Update-Package -ProjectName Ordering.API
