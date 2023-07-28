@@ -6,7 +6,7 @@ using System.Net;
 
 namespace Catalog.API.Controllers
 {
-    [Route("api/v1/[controller]")]
+    [Route("api/[controller]")]
     [ApiController]
     public class CatalogController : ControllerBase
     {
